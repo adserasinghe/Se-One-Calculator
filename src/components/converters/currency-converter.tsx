@@ -10,11 +10,11 @@ import { Button } from '../ui/button';
 
 // Static exchange rates relative to USD
 const exchangeRates: Record<string, number> = {
-  usd: 1, eur: 0.92, jpy: 157.2, gbp: 0.78, cad: 1.37, aud: 1.5,
+  usd: 1, eur: 0.92, jpy: 157.2, gbp: 0.78, cad: 1.37, aud: 1.5, inr: 83.5, lkr: 300,
 };
 
 const currencyLabels: Record<string, string> = {
-  usd: "usd", eur: "eur", jpy: "jpy", gbp: "gbp", cad: "cad", aud: "aud",
+  usd: "usd", eur: "eur", jpy: "jpy", gbp: "gbp", cad: "cad", aud: "aud", inr: "inr", lkr: "lkr",
 };
 
 export function CurrencyConverter() {

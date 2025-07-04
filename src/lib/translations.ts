@@ -56,6 +56,8 @@ export const TRANSLATION_KEYS: Record<string, string> = {
   gbp: "British Pound Sterling",
   cad: "Canadian Dollar",
   aud: "Australian Dollar",
+  inr: "Indian Rupee",
+  lkr: "Sri Lankan Rupee",
   
   // Data
   bytes: "Bytes",
